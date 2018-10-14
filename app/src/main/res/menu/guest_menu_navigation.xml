@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/guest_menu_first" android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_hotel"
+            android:title="@string/about_hotel"
+            android:icon="@drawable/ic_hotel"/>
+        <item
+            android:id="@+id/about_city"
+            android:title="@string/about_city"
+            android:icon="@drawable/ic_location"/>
+        <item
+            android:id="@+id/hotel_news"
+            android:title="@string/hotel_news"
+            android:icon="@drawable/ic_newspaper"/>
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"/>
+
+    </group>
+    <group android:id="@+id/guest_menu_second"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/login_register"
+            android:title="@string/login_register"
+            android:icon="@drawable/ic_login"
+            />
+    </group>
+</menu>
